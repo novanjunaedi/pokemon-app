@@ -1,8 +1,9 @@
 const Header = () => {
     return (
-        <header className="w-full h-16 flex items-center justify-center py-10">
+        <header className="w-full h-[150px] flex flex-col items-center justify-center gap-3">
             <h1 className="text-3xl font-bold">Pokemon App</h1>
-        </header>
+            <p>Built with React.js and Vite</p>
+        </header >
     )
 }
 
